@@ -1,0 +1,23 @@
+# Platform-Game
+Platform game mede in c++ using SFML library
+## Screens from the game:
+![alt text](https://github.com/domus55/Platform-Game/blob/master/SFML2/images/screenshots/1.jpg)
+![alt text](https://github.com/domus55/Platform-Game/blob/master/SFML2/images/screenshots/2.jpg)
+![alt text](https://github.com/domus55/Platform-Game/blob/master/SFML2/images/screenshots/3.jpg)
+![alt text](https://github.com/domus55/Platform-Game/blob/master/SFML2/images/screenshots/4.jpg)
+![alt text](https://github.com/domus55/Platform-Game/blob/master/SFML2/images/screenshots/5.jpg)
+![alt text](https://github.com/domus55/Platform-Game/blob/master/SFML2/images/screenshots/6.jpg)
+![alt text](https://github.com/domus55/Platform-Game/blob/master/SFML2/images/screenshots/7.jpg)
+![alt text](https://github.com/domus55/Platform-Game/blob/master/SFML2/images/screenshots/8.jpg)
+![alt text](https://github.com/domus55/Platform-Game/blob/master/SFML2/images/screenshots/9.jpg)
+![alt text](https://github.com/domus55/Platform-Game/blob/master/SFML2/images/screenshots/10.jpg)
+![alt text](https://github.com/domus55/Platform-Game/blob/master/SFML2/images/screenshots/11.jpg)
+![alt text](https://github.com/domus55/Platform-Game/blob/master/SFML2/images/screenshots/12.jpg)
+![alt text](https://github.com/domus55/Platform-Game/blob/master/SFML2/images/screenshots/13.jpg)
+![alt text](https://github.com/domus55/Platform-Game/blob/master/SFML2/images/screenshots/14.jpg)
+![alt text](https://github.com/domus55/Platform-Game/blob/master/SFML2/images/screenshots/15.jpg)
+![alt text](https://github.com/domus55/Platform-Game/blob/master/SFML2/images/screenshots/16.jpg)
+![alt text](https://github.com/domus55/Platform-Game/blob/master/SFML2/images/screenshots/17.jpg)
+![alt text](https://github.com/domus55/Platform-Game/blob/master/SFML2/images/screenshots/18.jpg)
+![alt text](https://github.com/domus55/Platform-Game/blob/master/SFML2/images/screenshots/19.jpg)
+![alt text](https://github.com/domus55/Platform-Game/blob/master/SFML2/images/screenshots/20.jpg)
