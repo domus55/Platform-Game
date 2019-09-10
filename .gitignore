@@ -7,7 +7,6 @@
 *.userosscache
 *.sln.docstates
 
-Release/
 desktop.ini
 
 # User-specific files (MonoDevelop/Xamarin Studio)
