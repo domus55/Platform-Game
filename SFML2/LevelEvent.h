@@ -19,5 +19,6 @@ private:
 	static void level4();
 	static void level5();
 	static void level6();
+	static void level7();
 };
 

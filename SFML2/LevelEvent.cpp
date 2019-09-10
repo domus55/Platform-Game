@@ -13,6 +13,7 @@ void LevelEvent::levelEvent(int level, int deltaTime)
 	case 4: level4(); break;
 	case 5: level5(); break;
 	case 6: level6(); break;
+	case 7: level7(); break;
 	}
 
 	restart = false;
@@ -130,7 +131,7 @@ void LevelEvent::level6()
 	static int deltaTime2 = 0;
 	static int enemySpawnSpeed = 5000;
 	static int los;
-	if (h < 10) h += 0.00003 * deltaTime;
+	if (h < 10) h += 0.000035 * deltaTime;
 	deltaTime2 += deltaTime;
 
 	if (restart)
@@ -224,5 +225,28 @@ void LevelEvent::level6()
 		if (Block::block[i]->name == "finish") Block::block.erase(Block::block.begin() + i);
 	}
 	Block::makeBlock(-0.5, h, "finish");
+}
+
+void LevelEvent::level7()
+{
+	static bool end = false;
+	
+	if (Player::player[0]->getPosition().x > 11400) end = true;
+
+	if (end)
+	{
+		static int time = 0;
+		time += GameInfo::getDeltaTime();
+
+		static bool firstTime = true;
+		if (firstTime && time > 2000)
+		{
+			for (int i = Player::player.size() - 1; i >= 0; i--)
+			{
+				//std::cout << Player::player[0]->getPosition().y;
+				Player::player[i]->teleport(271.5, 4.5);
+			}
+		}
+	}
 }
 

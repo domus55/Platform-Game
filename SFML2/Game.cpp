@@ -13,7 +13,7 @@ Game::Game()
 	GameInfo::setViewCenter(sf::Vector2f(800, 450));
 	//LevelMenager::makeAll(&window, true, deltaTime);	//usun¹æ po dodaniu mainmenu i dodaæ do main menu
 	//MenuMenager::inMainMenu = false;	//usun¹æ po dodaniu mainmenu
-	//view.zoom(2.5);
+	//view.zoom(10);
 
 	//music.openFromFile("music/music2.wav");	//zmieniæ na music/music.wav
 	//music.setVolume(15);

@@ -114,8 +114,8 @@ void LevelMenager::makeLevel(sf::RenderWindow *window, sf::Image image, int up)
 			}
 			else
 			{
-				if (color.r == 0 && color.g == 245 && color.b == 0) Block::makeBlock(a, h + up, "flower2");
-				else if (color.r == 0 && color.g == 255 && color.b == 0) Block::makeBlock(a, h + up, "grass2");
+				//if (color.r == 0 && color.g == 245 && color.b == 0) Block::makeBlock(a, h + up, "flower2");
+				if (color.r == 0 && color.g == 255 && color.b == 0) Block::makeBlock(a, h + up, "grass2");
 				else if (color.r == 145 && color.g == 85 && color.b == 0) Block::makeBlock(a, h + up, "dirt2");
 				else if (color.r == 255 && color.g == 255 && color.b == 0) Block::makeBlock(a, h + up, "sand2");
 				else if (color.r == 200 && color.g == 200 && color.b == 200) Block::makeBlock(a, h + up, "glass");
@@ -142,6 +142,8 @@ end:;
 
 void LevelMenager::level1(sf::RenderWindow *window)
 {
+	Menu::movingCamera = true;
+
 	sf::Image image;
 	image.loadFromFile("images/level/1.png");
 	makeLevel(window, image);

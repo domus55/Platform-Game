@@ -77,8 +77,8 @@ void MainMenu::renderMenu(sf::RenderWindow *window, sf::Vector2f view)
 			Button::button.clear();
 
 			Button::makeButton(view.x, view.y - 160, "play");
-			Button::makeButton(view.x, view.y, "restart");
-			Button::makeButton(view.x, view.y + 160, "options");
+			//Button::makeButton(view.x, view.y, "restart");
+			Button::makeButton(view.x, view.y, "options");
 			firstTimeInMenu = false;
 		}
 		sprite.setPosition(view);
